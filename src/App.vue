@@ -17,7 +17,7 @@
           <SiteNavHeader />
         </el-header>
         <el-main class="site-nav-main">
-          <SiteNavSearch />
+          <SearchEngine />
           <Suspense>
             <template #default>
               <WebSites :webs="webs" @updated="updatedWebs" />
