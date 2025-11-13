@@ -14,7 +14,7 @@
   "author": "Moses",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "generate": "vite-ssg build",
     "preview": "vite preview",

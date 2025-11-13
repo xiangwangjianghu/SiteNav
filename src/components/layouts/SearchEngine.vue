@@ -5,9 +5,7 @@
       <button :class="{ active: currentEngine === 'site' }" @click="switchEngine('site')">站内查询</button>
       <button :class="{ active: currentEngine === 'baidu' }" @click="switchEngine('baidu')">百度查询</button>
       <button :class="{ active: currentEngine === 'bing' }" @click="switchEngine('bing')">必应查询</button>
-      <button :class="{ active: currentEngine === 'google' }" @click="switchEngine('google')">
-        谷歌查询
-      </button>
+      <button :class="{ active: currentEngine === 'google' }" @click="switchEngine('google')">谷歌查询</button>
     </div>
 
     <!-- 搜索区域 -->

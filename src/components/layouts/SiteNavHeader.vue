@@ -11,11 +11,6 @@
           <i inline-flex i="dark:ep-moon ep-sunny" />
         </button>
       </div>
-      <div class="margin-lr">
-        <el-link href="https://github.com/MosesCN/SiteNav" target="_blank">
-          Github
-        </el-link>
-      </div>
     </div>
   </div>
 </template>

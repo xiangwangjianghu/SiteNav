@@ -1,9 +1,6 @@
 <template>
   <div class="footer-copyright hidden-content">
-    &copy; 2019-{{ year }} &nbsp; <strong>SiteNav</strong>&nbsp;
-    design&nbsp;by&nbsp; <a href="https://github.com/MosesCN" target="_blank"><strong>Moses</strong></a>,
-    power&nbsp;by&nbsp;<a href="https://vuejs.org/">Vue</a>&nbsp;and&nbsp;<a
-      href="https://element-plus.org/">Element+</a>
+    &copy;{{ year }} &nbsp; <strong>AI人导航</strong>&nbsp;
   </div>
 </template>
 
